@@ -35,7 +35,7 @@ public:
 
         // return dp[n][m];
 
-        // Approach 3: Space-Optimised Tabulation, S.C. = O()
+        // Approach 3: Space-Optimised Tabulation, S.C. = O(m)
         vector<int> curr(m + 1, INT_MIN), prev(m + 1, INT_MIN);
         for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= m; j++) {
