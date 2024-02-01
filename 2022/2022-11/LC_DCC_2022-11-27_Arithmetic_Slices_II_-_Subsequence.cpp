@@ -42,18 +42,19 @@ public:
     }
 };
 
-int main(){
+int main() {
     Solution ob;
     int t;
-    cin>>t;
-    while(t--){
+    cin >> t;
+    while(t--) {
         int n;
-        cin>>n;
+        cin >> n;
         vector<int> a(n);
-        for(int i=0; i<n; i++)
-            cin>>a[i];
-        cout<<ob.numberOfArithmeticSlices(a)<<endl;
+        for(int i = 0; i < n; i++)
+            cin >> a[i];
+        cout << ob.numberOfArithmeticSlices(a) << endl;
     }
+
     return 0;
 }
 
